@@ -23,7 +23,7 @@ jobs:
 
       - name: Prepare Flutter project
         run: |
-          mkdir -p lib
+          flutter create --platforms=android .
           cp main.dart lib/main.dart
 
       - name: Get dependencies
