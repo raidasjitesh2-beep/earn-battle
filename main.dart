@@ -70,7 +70,7 @@ class EarnBattleApp extends StatelessWidget {
   @override
   void initState() {
     super.initState();
-    _loadTournaments();
+  //  _loadTournaments();
   }
 
   Future<void> _loadTournaments() async {
